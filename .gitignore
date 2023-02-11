@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#default ignored items
+/shelf/
+/.vscode
+/interface/home/__pycache__
+/interface/installer/__pycache__
+/interface/__pycache__
+/interface/calculator/__pycache__
+/modules/__pycache__
+/note.txt
