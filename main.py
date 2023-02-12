@@ -259,7 +259,7 @@ class program:
 
 	def main(self):
 		try:
-			if key_input == keys[0] or key_input == keys[1] or key_input == keys[2] or key_input == keys[3] or key_input == keys[4]:
+			if key_input in keys[0:4]:
 				main_logo.logo()
 				main_menu.menu()
 				choice = int(input(f'{color_yellow}({color_green}{user}@{user}-PC{color_yellow}){color_yellow}> '))
